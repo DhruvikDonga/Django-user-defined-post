@@ -52,10 +52,10 @@ Perform same steps for application userblog
 
 ### Check the django admin panel if you have used it or else reset the password of the panel and create a superuser
 
-###Prefer to django documentation for more information
+### Prefer to django documentation for more information
 
-##User panel
+## User panel
 ![](screencapture-127-0-0-1-8000-admin-auth-user-2020-01-12-14_05_56.png)
 ![](screencapture-127-0-0-1-8000-admin-auth-user-add-2020-01-12-14_06_26.png)
-##Blog panel
-![]()
+## Blog panel
+![](screencapture-127-0-0-1-8000-admin-userblog-snippet-add-2020-01-12-12_41_03.png)
