@@ -54,3 +54,6 @@ Perform same steps for application userblog
 
 ###Prefer to django documentation for more information
 
+##User panel
+![](screencapture-127-0-0-1-8000-admin-auth-user-2020-01-12-14_05_56.png)
+##Blog panel
