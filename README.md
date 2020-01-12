@@ -59,3 +59,6 @@ Perform same steps for application userblog
 ![](screencapture-127-0-0-1-8000-admin-auth-user-add-2020-01-12-14_06_26.png)
 ## Blog panel
 ![](screencapture-127-0-0-1-8000-admin-userblog-snippet-add-2020-01-12-12_41_03.png)
+
+## Video link for the  output
+https://drive.google.com/drive/u/0/my-drive
