@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Post-uploader</title>
+    <style>
+        
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  h1{
+       color:green;
+      font-family: Bauhaus 93;
+  }
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+    .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+    h4{
+      color:greenyellow;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    img {
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 5px;
+      width: 300px;
+    }
+    </style>
+</head>
+<body>
+    <h1>Post play<h4>Only for geeks</h4></h1>
+
+  <div class="topnav">
+  {% if user.is_authenticated %}
+    <a href="#">Hi {{user.username}}</a>
+    <a href="accounts/logout">Logout</a>
+    <a href="snippet_detail">Write post</a>
+    {% else %}
+  <a href="accounts/register">Register</a>
+  <a href="accounts/login">Login</a>
+  {% endif %}
+  </div>
+  <p>
+    {% for snips in snipps %}
+    
+          <img src="{{snips.img.url}}" alt="Image" class="img-fluid">
+          <h2 class="font-size-regular"><a href="#">{{snips.blogname}}</a></h2>
+          <h3>{{snips.user}}</h3>
+          {% if user.is_authenticated %}
+          <p>{{snips.blogdes}}</p>
+          {% else %}
+          <p>Register/Login to know more of this place</p>
+          {% endif %}
+
+        
+    {% endfor %}
+
+  </p>
+</div>
+</body>
+</html>
