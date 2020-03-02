@@ -62,5 +62,5 @@ Perform same steps for application userblog
 
 ## Video link for the  output
 https://drive.google.com/file/d/1xJRqfdElGkEsjtEeltQvgBJM4s_UQ6uB/view?usp=sharing
-##GFG article link
+## GFG article link
 https://www.geeksforgeeks.org/associate-user-to-its-upload-post-in-django/
